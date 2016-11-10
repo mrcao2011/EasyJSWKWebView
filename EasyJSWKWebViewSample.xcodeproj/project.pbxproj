@@ -13,11 +13,11 @@
 		C6EFB20D1DD486FB00C25748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EFB20B1DD486FB00C25748 /* Main.storyboard */; };
 		C6EFB20F1DD486FB00C25748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EFB20E1DD486FB00C25748 /* Assets.xcassets */; };
 		C6EFB2121DD486FB00C25748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EFB2101DD486FB00C25748 /* LaunchScreen.storyboard */; };
-		C6EFB21C1DD487A700C25748 /* EasyJSWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB21B1DD487A700C25748 /* EasyJSWKWebView.m */; };
-		C6EFB21F1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB21E1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.m */; };
 		C6EFB2211DD48A7F00C25748 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFB2201DD48A7E00C25748 /* WebKit.framework */; };
 		C6EFB2231DD48AFA00C25748 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C6EFB2221DD48AFA00C25748 /* index.html */; };
 		C6EFB2261DD48BDD00C25748 /* testJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB2251DD48BDD00C25748 /* testJavaScript.m */; };
+		C6EFB22C1DD495E800C25748 /* EasyJSWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB2291DD495E800C25748 /* EasyJSWKWebView.m */; };
+		C6EFB22D1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB22B1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,14 +31,14 @@
 		C6EFB20E1DD486FB00C25748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EFB2111DD486FB00C25748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EFB2131DD486FB00C25748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6EFB21A1DD487A700C25748 /* EasyJSWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWKWebView.h; sourceTree = "<group>"; };
-		C6EFB21B1DD487A700C25748 /* EasyJSWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWKWebView.m; sourceTree = "<group>"; };
-		C6EFB21D1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWKWebViewProxyDelegate.h; sourceTree = "<group>"; };
-		C6EFB21E1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWKWebViewProxyDelegate.m; sourceTree = "<group>"; };
 		C6EFB2201DD48A7E00C25748 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C6EFB2221DD48AFA00C25748 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = EasyJSWKWebViewSample/index.html; sourceTree = "<group>"; };
 		C6EFB2241DD48BDD00C25748 /* testJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testJavaScript.h; path = EasyJSWKWebViewSample/testJavaScript.h; sourceTree = "<group>"; };
 		C6EFB2251DD48BDD00C25748 /* testJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testJavaScript.m; path = EasyJSWKWebViewSample/testJavaScript.m; sourceTree = "<group>"; };
+		C6EFB2281DD495E800C25748 /* EasyJSWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWKWebView.h; sourceTree = "<group>"; };
+		C6EFB2291DD495E800C25748 /* EasyJSWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWKWebView.m; sourceTree = "<group>"; };
+		C6EFB22A1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWKWebViewProxyDelegate.h; sourceTree = "<group>"; };
+		C6EFB22B1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWKWebViewProxyDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		C6EFB2011DD486FB00C25748 /* EasyJSWKWebViewSample */ = {
 			isa = PBXGroup;
 			children = (
-				C6EFB2191DD4873600C25748 /* EasyJSWKWebView */,
+				C6EFB2271DD495E800C25748 /* EasyJSWKWebView */,
 				C6EFB2051DD486FB00C25748 /* AppDelegate.h */,
 				C6EFB2061DD486FB00C25748 /* AppDelegate.m */,
 				C6EFB2081DD486FB00C25748 /* ViewController.h */,
@@ -98,13 +98,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C6EFB2191DD4873600C25748 /* EasyJSWKWebView */ = {
+		C6EFB2271DD495E800C25748 /* EasyJSWKWebView */ = {
 			isa = PBXGroup;
 			children = (
-				C6EFB21A1DD487A700C25748 /* EasyJSWKWebView.h */,
-				C6EFB21B1DD487A700C25748 /* EasyJSWKWebView.m */,
-				C6EFB21D1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.h */,
-				C6EFB21E1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.m */,
+				C6EFB2281DD495E800C25748 /* EasyJSWKWebView.h */,
+				C6EFB2291DD495E800C25748 /* EasyJSWKWebView.m */,
+				C6EFB22A1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.h */,
+				C6EFB22B1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m */,
 			);
 			path = EasyJSWKWebView;
 			sourceTree = "<group>";
@@ -180,11 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EFB22D1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m in Sources */,
+				C6EFB22C1DD495E800C25748 /* EasyJSWKWebView.m in Sources */,
 				C6EFB20A1DD486FB00C25748 /* ViewController.m in Sources */,
 				C6EFB2071DD486FB00C25748 /* AppDelegate.m in Sources */,
 				C6EFB2261DD48BDD00C25748 /* testJavaScript.m in Sources */,
-				C6EFB21F1DD4881D00C25748 /* EasyJSWKWebViewProxyDelegate.m in Sources */,
-				C6EFB21C1DD487A700C25748 /* EasyJSWKWebView.m in Sources */,
 				C6EFB2041DD486FB00C25748 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +336,7 @@
 				C6EFB2181DD486FB00C25748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
