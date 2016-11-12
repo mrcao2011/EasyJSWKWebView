@@ -6,12 +6,17 @@
 //  Copyright © 2016年 mr.cao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "EasyJSWKWebViewProxyDelegate.h"
+#import <WebKit/WebKit.h>
 
 @interface EasyJSWKWebView : WKWebView
 
 
-- (void) addJavascriptInterfaces:(NSObject*) interface WithName:(NSString*) name;
+/**
+ *
+ *
+ *  @param interface 
+ *  @param name      js对象名字
+ */
+- (void) addJavascriptInterfaces:(NSObject*) interface WithJSObjName:(NSString*) name;
 
 @end

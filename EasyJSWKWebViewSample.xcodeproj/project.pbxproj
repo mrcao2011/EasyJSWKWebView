@@ -17,7 +17,6 @@
 		C6EFB2231DD48AFA00C25748 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C6EFB2221DD48AFA00C25748 /* index.html */; };
 		C6EFB2261DD48BDD00C25748 /* testJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB2251DD48BDD00C25748 /* testJavaScript.m */; };
 		C6EFB22C1DD495E800C25748 /* EasyJSWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB2291DD495E800C25748 /* EasyJSWKWebView.m */; };
-		C6EFB22D1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFB22B1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +32,10 @@
 		C6EFB2131DD486FB00C25748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EFB2201DD48A7E00C25748 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C6EFB2221DD48AFA00C25748 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = EasyJSWKWebViewSample/index.html; sourceTree = "<group>"; };
-		C6EFB2241DD48BDD00C25748 /* testJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testJavaScript.h; path = EasyJSWKWebViewSample/testJavaScript.h; sourceTree = "<group>"; };
-		C6EFB2251DD48BDD00C25748 /* testJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testJavaScript.m; path = EasyJSWKWebViewSample/testJavaScript.m; sourceTree = "<group>"; };
+		C6EFB2241DD48BDD00C25748 /* testJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testJavaScript.h; sourceTree = "<group>"; };
+		C6EFB2251DD48BDD00C25748 /* testJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testJavaScript.m; sourceTree = "<group>"; };
 		C6EFB2281DD495E800C25748 /* EasyJSWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWKWebView.h; sourceTree = "<group>"; };
 		C6EFB2291DD495E800C25748 /* EasyJSWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWKWebView.m; sourceTree = "<group>"; };
-		C6EFB22A1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWKWebViewProxyDelegate.h; sourceTree = "<group>"; };
-		C6EFB22B1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWKWebViewProxyDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +53,6 @@
 		C6EFB1F61DD486FB00C25748 = {
 			isa = PBXGroup;
 			children = (
-				C6EFB2241DD48BDD00C25748 /* testJavaScript.h */,
-				C6EFB2251DD48BDD00C25748 /* testJavaScript.m */,
 				C6EFB2221DD48AFA00C25748 /* index.html */,
 				C6EFB2201DD48A7E00C25748 /* WebKit.framework */,
 				C6EFB2011DD486FB00C25748 /* EasyJSWKWebViewSample */,
@@ -79,6 +74,8 @@
 				C6EFB2271DD495E800C25748 /* EasyJSWKWebView */,
 				C6EFB2051DD486FB00C25748 /* AppDelegate.h */,
 				C6EFB2061DD486FB00C25748 /* AppDelegate.m */,
+				C6EFB2251DD48BDD00C25748 /* testJavaScript.m */,
+				C6EFB2241DD48BDD00C25748 /* testJavaScript.h */,
 				C6EFB2081DD486FB00C25748 /* ViewController.h */,
 				C6EFB2091DD486FB00C25748 /* ViewController.m */,
 				C6EFB20B1DD486FB00C25748 /* Main.storyboard */,
@@ -103,8 +100,6 @@
 			children = (
 				C6EFB2281DD495E800C25748 /* EasyJSWKWebView.h */,
 				C6EFB2291DD495E800C25748 /* EasyJSWKWebView.m */,
-				C6EFB22A1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.h */,
-				C6EFB22B1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m */,
 			);
 			path = EasyJSWKWebView;
 			sourceTree = "<group>";
@@ -180,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EFB22D1DD495E800C25748 /* EasyJSWKWebViewProxyDelegate.m in Sources */,
 				C6EFB22C1DD495E800C25748 /* EasyJSWKWebView.m in Sources */,
 				C6EFB20A1DD486FB00C25748 /* ViewController.m in Sources */,
 				C6EFB2071DD486FB00C25748 /* AppDelegate.m in Sources */,

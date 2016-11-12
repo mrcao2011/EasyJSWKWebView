@@ -35,7 +35,7 @@
                                         timeoutInterval:60.0];
     [_webView loadRequest:request];
     testJavaScript* bridge = [[testJavaScript alloc]init];
-    [_webView addJavascriptInterfaces:bridge WithName:@"testJavaScript"];
+    [_webView addJavascriptInterfaces:bridge WithJSObjName:@"testJavaScript"];
     bridge.ocCallJSBolck=^()
     {
        [_webView evaluateJavaScript:[NSString  stringWithFormat:@"OCCallJS('%@')",@"厉害了world哥"]completionHandler:nil];
