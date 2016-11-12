@@ -3,7 +3,7 @@
 Enable adding Javascript Interface to WKWebView like Android WebView
 
 
-类似与Android WebView，注册本地类对象和JS中类对象名称的方式实现Javascript与WKWebView的交互
+类似与Android WebView，注册本地类对象和JS中类对象名称的方式实现Javascript与WKWebView的交互,基于[EasyJSWebView(UIWebView)](https://github.com/dukeland/EasyJSWebView)移植到WKWebView
 
 ###JS调用Objective-C
 
