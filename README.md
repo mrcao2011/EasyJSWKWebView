@@ -45,18 +45,16 @@ Enable adding Javascript Interface to WKWebView like Android WebView
 ###Objective-C调用JS
    
    直接调用WKWebView API 
-   
-   ```objc
-    - (void)evaluateJavaScript:(NSString *)javaScriptString completionHandler:(void (^ __nullable)(__nullable id, NSError * __nullable error))completionHandler; 
-    ``` 
+  ```objc
+    - (void)evaluateJavaScript:(NSString *)javaScriptString completionHandler:(void (^ __nullable)(__nullable id, NSError * __nullable error))completionHandler;   
+  ``` 
   即可  
   
   
   例如：
   
  ```objc
- 
-    [_webView evaluateJavaScript:[NSString  stringWithFormat:@"OCCallJS('%@')",@"厉害了world哥"]completionHandler:nil];
+    [_webView evaluateJavaScript:[NSString  stringWithFormat:@"OCCallJS('%@')",@"厉害了world哥"]completionHandler:nil];  
   ```
 
 具体代码请参考工程代码
