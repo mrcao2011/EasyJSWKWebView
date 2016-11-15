@@ -7,7 +7,7 @@ _Enable adding Javascript Interface to WKWebView like Android WebView_
 ### `JS` 调用 `Objective-C`
 
 #### 首先创建个类,类实例方法需要与 `js` 端方法名称保持一致
-```
+```objective-c
 #import "testJavaScript.h"
 
 @implementation testJavaScript
@@ -23,31 +23,31 @@ _Enable adding Javascript Interface to WKWebView like Android WebView_
 }
 @end
 ```
-#### 注册类对象给WKWebview
+#### 注册类对象给 `WKWebview`
 ```diff
 + testJavaScript* bridge = [[testJavaScript alloc]init];
     
 + [_webView addJavascriptInterfaces:bridge WithJSObjName:@"testJavaScript"];    
 ```
 
-在JS代码里面，调用Objective-C方法：
+在JS代码里面，调用 `Objective-C` 方法：
 
 ```diff
 + window.testJavaScript.JSCallOC();
 ```
 
-### Objective-C调用JS
+### `Objective-C` 调用 `JS`
    
-#### 直接调用WKWebView API 
+#### 直接调用 `WKWebView API`
    
-```oc
+```objective-c
 - (void)evaluateJavaScript:(NSString *)javaScriptString completionHandler:(void (^ __nullable)(__nullable id, NSError * __nullable error))completionHandler;
 ```
 即可  
   
 > 例如：
   
-```oc
+```objective-c
 [_webView evaluateJavaScript:[NSString  stringWithFormat:@"OCCallJS('%@')",@"厉害了world哥"]completionHandler:nil];
 ```
 
